@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
       {/* <TopicBrowser /> */}
-      <EvenAndOdd />
-      {/* <FilterObject /> */}
+      {/* <EvenAndOdd /> */}
+      <FilterObject />
       {/* <FilterString /> */}
       {/* <Palindrome /> */}
     </div>
