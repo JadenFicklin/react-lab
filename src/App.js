@@ -11,8 +11,8 @@ function App() {
       {/* <TopicBrowser /> */}
       {/* <EvenAndOdd /> */}
       {/* <FilterObject /> */}
-      <FilterString />
-      {/* <Palindrome /> */}
+      {/* <FilterString /> */}
+      <Palindrome />
     </div>
   );
 }
