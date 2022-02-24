@@ -10,8 +10,8 @@ function App() {
     <div>
       {/* <TopicBrowser /> */}
       {/* <EvenAndOdd /> */}
-      <FilterObject />
-      {/* <FilterString /> */}
+      {/* <FilterObject /> */}
+      <FilterString />
       {/* <Palindrome /> */}
     </div>
   );
