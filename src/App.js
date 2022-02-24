@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TopicBrowser from "./components/TopicBrowser/TopicBrowser";
+import EvenAndOdd from "./components/Topics/EvenAndOdd";
+import FilterObject from "./components/Topics/FilterObject";
+import FilterString from "./components/Topics/FilterString";
+import Palindrome from "./components/Topics/Palindrome";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <TopicBrowser /> */}
+      <EvenAndOdd />
+      {/* <FilterObject /> */}
+      {/* <FilterString /> */}
+      {/* <Palindrome /> */}
     </div>
   );
 }
